@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: green;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    article {
+        word-wrap: break-word; 
+        width: 600px;
+        margin: 0 auto;
+  }
+
+
+  nav ul li{
+	display:inline;
+    text-align: center; /* Centra horizontalmente */
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    margin: 0 40px; /* Espacio entre los elementos */
+    
+}	
+
+h1{
+    text-align: center;
+    font-size: 8rem;
+    font-family:"Micro 5 Charted" ;
+    font-weight: 900;
+    color: orange;
+}
+
+p,ul{
+    font-family: "Press Start 2P";
+    font-weight: 500;
+    color: green ;
+}
+
+    
