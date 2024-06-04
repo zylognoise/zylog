@@ -24,6 +24,7 @@ nav ul li{
     padding: 0;
     display: inline;
     margin: 0 20px; /* Espacio entre los elementos */
+    font-size: 15px;
     
 }	
 
