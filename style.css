@@ -5,25 +5,25 @@ body{
 
 a{
     color: green;
-    text-decoration: none;
+    text-decoration:none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
     /* For desktop: */
     article {
         word-wrap: break-word; 
-        width: 600px;
+        width: 700px;
         margin: 0 auto;
-  }
+}
 
 
-  nav ul li{
+nav ul li{
 	display:inline;
     text-align: center; /* Centra horizontalmente */
     list-style-type: none;
     padding: 0;
     display: inline;
-    margin: 0 40px; /* Espacio entre los elementos */
+    margin: 0 20px; /* Espacio entre los elementos */
     
 }	
 
@@ -35,10 +35,23 @@ h1{
     color: orange;
 }
 
-p,ul{
+p,ul,h2{
     font-family: "Press Start 2P";
     font-weight: 500;
     color: green ;
+}
+
+#desplegable{
+    font-family: "Micro 5 Charted";
+    font-size: 2rem;
+    font-weight: 500;
+    color: green ;
+    cursor: pointer;
+}
+
+#space{
+        font-size: 10px;
+
 }
 
     
